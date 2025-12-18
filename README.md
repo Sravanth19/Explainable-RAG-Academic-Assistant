@@ -31,7 +31,7 @@ The diagram below illustrates the data flow and component interaction within the
 
 ```text
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   PDF Upload    │───▶│   Ingestion     │───▶│   Vector Store  │
+│   PDF Upload    │───▶│   Ingestion     │───▶│   Vector Store │
 │   (Streamlit)   │    │   (LangChain)   │    │   (FAISS)       │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                      │                      │
