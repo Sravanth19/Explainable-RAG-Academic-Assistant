@@ -46,3 +46,111 @@ The diagram below illustrates the data flow and component interaction within the
 │   Answer        │    │   Explanation   │    │   Sources       │
 │   Display       │    │   Summary       │    │   & Confidence  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
+
+```
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit  
+- **LLM:** Phi-3 Mini via Ollama (lightweight, efficient)  
+- **Embeddings:** Phi-3 Mini via Ollama (consistent, RAM-efficient)  
+- **Vector Store:** FAISS  
+- **Document Processing:** LangChain (PyPDFLoader, RecursiveCharacterTextSplitter)  
+- **Programming Language:** Python 3.8+
+
+---
+
+## 📋 Prerequisites
+
+1. **Ollama Installation**  
+   Download and install Ollama from:  
+   👉 https://ollama.ai
+
+2. **Required Model**  
+   Pull the Phi-3 Mini model:
+   ```bash
+   ollama pull phi3
+   ```
+## 🐍 Python Environment
+
+- **Python Version:** 3.8 or higher
+
+---
+
+## 🏃‍♂️ How to Run
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-url>
+cd Explainable-RAG-Academic-Assistant
+
+```
+
+
+### 3️⃣ Start Ollama Server
+
+```bash
+ollama serve
+```
+### 4️⃣ Run the Application
+```bash
+streamlit run app.py
+
+```
+### 5️⃣ Access the App
+
+-Open your browser at:
+```bash
+
+👉 http://localhost:8501
+```
+
+
+## 💡 How It Works
+
+### 📄 Document Ingestion
+- Upload a PDF document via the sidebar
+- The system chunks the document into smaller sections
+- Embeddings are generated using **Phi-3 Mini**
+- All embeddings are stored in a **FAISS vector database**
+
+### ❓ Question Answering
+- Retrieves top-k relevant document chunks
+- Generates answers **strictly from retrieved context**
+- Prevents hallucinations by refusing unsupported answers
+
+### 🔍 Explainability
+- Provides a reasoning summary
+- Displays source citations with page numbers
+- Includes a confidence score for transparency
+
+---
+
+## 📝 Sample Questions
+
+- *"What are the main findings of this research?"*  
+- *"Explain the methodology used in the study."*  
+- *"What are the limitations mentioned in the paper?"*  
+- *"Summarize the conclusion of this academic work."*
+
+---
+
+## 🔮 Future Improvements
+
+- Multi-PDF ingestion and comparison  
+- Semantic chunking for better contextual understanding  
+- Direct citation highlighting inside PDFs  
+- Conversation memory (chat history support)
+
+---
+
+## 📊 Validation Checklist
+
+- [x] App runs without `ModuleNotFoundError`  
+- [x] PDF ingestion and chunking works correctly  
+- [x] Explainability output (Sources & Confidence) is visible  
+- [x] Lightweight model optimized for low-RAM systems  
+- [x] Clean, modular, interview-ready code  
+
+---
+**Built by [Gutipalli sravanth]** 
