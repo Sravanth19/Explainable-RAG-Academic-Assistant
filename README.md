@@ -37,7 +37,7 @@ The diagram below illustrates the data flow and component interaction within the
          │                      │                      │
          ▼                      ▼                      ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Query Input   │───▶│   Retrieval     │───▶│   Generation    │
+│   Query Input   │───▶│   Retrieval     │───▶│   Generation   │
 │   (Streamlit)   │    │   (Similarity)  │    │ (Phi-3 Mini LLM)│
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                      │                      │
