@@ -19,7 +19,7 @@ The following screenshots demonstrate the **end-to-end execution flow** of the a
 **Description:** Demonstrates successful PDF ingestion. The document is loaded, chunked, converted into embeddings using Phi-3 Mini, and stored in the FAISS vector database.
 
 ### 3️⃣ Explainable RAG Question Answering Output
-![Explainable RAG Output](PASTE_IMAGE_PERMALINK_HERE)
+![Explainable RAG Output](https://github.com/Sravanth19/Explainable-RAG-Academic-Assistant/blob/18b6bc85f3b1d86b4d6e3eedba3f48809a60bfbb/pic2.png)
 
 **Description:** Shows the core functionality: the user asks a question, relevant chunks are retrieved, and an answer is generated strictly from the context. The explainability layer displays source references and a confidence score.
 
