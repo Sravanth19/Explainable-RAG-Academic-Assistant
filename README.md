@@ -153,4 +153,16 @@ streamlit run app.py
 - [x] Clean, modular, interview-ready code  
 
 ---
-**Built by [Gutipalli sravanth]** 
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](<your-repo-url>/issues).
+
+## 👤 Author
+
+**Built by [Gutipalli Sravanth]**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sravanth-gutipalli-99215a266)
+
+---
+*If you found this project helpful, please give it a ⭐ on GitHub!*
