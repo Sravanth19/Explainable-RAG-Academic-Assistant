@@ -14,7 +14,7 @@ The following screenshots demonstrate the **end-to-end execution flow** of the a
 **Description:** This screenshot shows the initial Streamlit user interface. It includes model information (LLM, Embeddings, Vector Store) and the PDF upload section. The system is ready to ingest academic documents.
 
 ### 2️⃣ Successful PDF Ingestion & System Readiness
-![PDF Ingestion Completed](PASTE_IMAGE_PERMALINK_HERE)
+![PDF Ingestion Completed](https://github.com/Sravanth19/Explainable-RAG-Academic-Assistant/blob/3315a8f70579b77a3d4e07a66978cf1621e6d017/pic1.png)
 
 **Description:** Demonstrates successful PDF ingestion. The document is loaded, chunked, converted into embeddings using Phi-3 Mini, and stored in the FAISS vector database.
 
