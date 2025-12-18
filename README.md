@@ -9,7 +9,7 @@ An intelligent research companion that allows users to upload academic PDFs and 
 The following screenshots demonstrate the **end-to-end execution flow** of the assistant running locally on **Streamlit (localhost)**, from PDF ingestion to explainable answer generation.
 
 ### 1️⃣ Application Interface & PDF Upload (Localhost)
-![Application Interface](PASTE_IMAGE_PERMALINK_HERE)
+![Application Interface](https://github.com/Sravanth19/Explainable-RAG-Academic-Assistant/blob/d922aef9aeb0b8a7647b563eb3de92d567c87fa7/pic.png)
 
 **Description:** This screenshot shows the initial Streamlit user interface. It includes model information (LLM, Embeddings, Vector Store) and the PDF upload section. The system is ready to ingest academic documents.
 
