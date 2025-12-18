@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/__pycache__"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/data"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/embeddings"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/evaluation"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/Explainable-RAG-Academic-Assistant"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/generation"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/ingestion"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/retrieval"
+		},
+		{
+			"path": "../Explainable-RAG-Academic-Assistant/venv"
+		}
+	]
+}
